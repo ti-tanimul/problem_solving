@@ -1,5 +1,5 @@
 <?php
-$array1 = array(1, 2, 3, 4, 5);
+$array1 = array(1, 2, 6, 3, 4, 5);
 function isSorted($array) {
     for ($i = 0; $i < count($array) - 1; $i++) {
         if ($array[$i] > $array[$i + 1]) {
